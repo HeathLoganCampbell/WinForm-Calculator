@@ -7,4 +7,10 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="CalculatorForm.Logic.cs">
+        <DependentUpon>Form1.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
